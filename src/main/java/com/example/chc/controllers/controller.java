@@ -14,6 +14,12 @@ public class controller {
     public String loginView() {
         return "login";
     }
-
-
+    @GetMapping("/register")
+    public String registerView() {
+        return "register";
+    }
+    @GetMapping("/password")
+    public String passwordView() {
+        return "password";
+    }
 }

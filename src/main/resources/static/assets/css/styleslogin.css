@@ -12208,12 +12208,14 @@ body {
 #layoutAuthentication #layoutAuthentication_content {      /*필*/
     min-width: 0;
     flex-grow: 1;
-
+    background-image: url("/assets/images/back2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 #layoutAuthentication #layoutAuthentication_footer {       /*필*/
     min-width: 0;
 }
-
+/**/
 #layoutSidenav {
     display: flex;
 }
