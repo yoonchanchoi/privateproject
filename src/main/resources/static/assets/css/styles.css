@@ -36,7 +36,7 @@ a:focus {
   text-decoration: none;
 }
 .btn,
-a.btn {
+a.btn {    /*필*/
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -46,16 +46,16 @@ a.btn {
   line-height: 1.5;
 }
 .btn .fa,
-a.btn .fa {
+a.btn .fa {    /*필*/
   margin-right: 5px;
 }
 .btn-cta,
-a.btn-cta {
+a.btn-cta {    /*필*/
   font-weight: bold;
   font-size: 16px;
   padding: 10px 30px;
 }
-.btn-primary {
+.btn-primary {     /*필*/
   background: #40babd;
   border: 1px solid #40babd;
   color: #fff;
@@ -64,7 +64,7 @@ a.btn-cta {
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active,
-.btn-primary.hover {
+.btn-primary.hover {     /*필*/
   background: #3aa7aa;
   color: #fff;
   border: 1px solid #3aa7aa;
@@ -322,7 +322,7 @@ a.btn-cta {
 .hero-carousel .carousel-inner .intro {
   font-size: 18px;
 }
-.hero-carousel .carousel-inner .intro + .btn {
+.hero-carousel .carousel-inner .intro + .btn {     /*필*/
   margin-top: 15px;
 }
 /* ======= About Section ======= */
@@ -622,11 +622,11 @@ a.btn-cta {
   margin-bottom: 30px;
   min-height: 120px;
 }
-.pricing-wrapper a.btn {
+.pricing-wrapper a.btn {     /*필*/
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
 }
-.pricing-wrapper a.btn:hover {
+.pricing-wrapper a.btn:hover {     /*필*/
   background: rgba(0, 0, 0, 0.4);
 }
 /* ======= Team Section ======= */

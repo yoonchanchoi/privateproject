@@ -67,7 +67,7 @@ mark {
   color: #000;
   background: #ff0;
 }
-small {
+small {    /*필*/
   font-size: 80%;
 }
 sub,
@@ -582,7 +582,7 @@ th {
 .glyphicon-resize-full:before {
   content: "\e096";
 }
-.glyphicon-resize-small:before {
+.glyphicon-resize-small:before {     /*필*/
   content: "\e097";
 }
 .glyphicon-exclamation-sign:before {
@@ -1182,13 +1182,13 @@ h6,
 .h3,
 .h4,
 .h5,
-.h6 {
+.h6 {    /*일단필*/
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
   color: inherit;
 }
-h1 small,
+h1 small,    /*필*/
 h2 small,
 h3 small,
 h4 small,
@@ -1211,7 +1211,7 @@ h6 .small,
 .h3 .small,
 .h4 .small,
 .h5 .small,
-.h6 .small {
+.h6 .small {   /*필*/
   font-weight: normal;
   line-height: 1;
   color: #777;
@@ -1221,7 +1221,7 @@ h1,
 h2,
 .h2,
 h3,
-.h3 {
+.h3 {   /*필*/
   margin-top: 20px;
   margin-bottom: 10px;
 }
@@ -1236,7 +1236,7 @@ h1 .small,
 h2 .small,
 .h2 .small,
 h3 .small,
-.h3 .small {
+.h3 .small {   /*필*/
   font-size: 65%;
 }
 h4,
@@ -1259,7 +1259,7 @@ h4 .small,
 h5 .small,
 .h5 .small,
 h6 .small,
-.h6 .small {
+.h6 .small {     /*필*/
   font-size: 75%;
 }
 h1,
@@ -1271,7 +1271,7 @@ h2,
   font-size: 30px;
 }
 h3,
-.h3 {
+.h3 {   /*일단필*/
   font-size: 24px;
 }
 h4,
@@ -1301,7 +1301,7 @@ p {
   }
 }
 small,
-.small {
+.small {     /*필*/
   font-size: 85%;
 }
 mark,
@@ -1315,7 +1315,7 @@ mark,
 .text-right {
   text-align: right;
 }
-.text-center {
+.text-center {  /*필*/
   text-align: center;
 }
 .text-justify {
@@ -1487,7 +1487,7 @@ blockquote ol:last-child {
 }
 blockquote footer,
 blockquote small,
-blockquote .small {
+blockquote .small {    /*필*/
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
@@ -1495,7 +1495,7 @@ blockquote .small {
 }
 blockquote footer:before,
 blockquote small:before,
-blockquote .small:before {
+blockquote .small:before {     /*필*/
   content: '\2014 \00A0';
 }
 .blockquote-reverse,
@@ -1511,7 +1511,7 @@ blockquote.pull-right footer:before,
 .blockquote-reverse small:before,
 blockquote.pull-right small:before,
 .blockquote-reverse .small:before,
-blockquote.pull-right .small:before {
+blockquote.pull-right .small:before {    /*필*/
   content: '';
 }
 .blockquote-reverse footer:after,
@@ -1519,7 +1519,7 @@ blockquote.pull-right footer:after,
 .blockquote-reverse small:after,
 blockquote.pull-right small:after,
 .blockquote-reverse .small:after,
-blockquote.pull-right .small:after {
+blockquote.pull-right .small:after {     /*필*/
   content: '\00A0 \2014';
 }
 address {
@@ -4227,7 +4227,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .container > .navbar-header,
 .container-fluid > .navbar-header,
 .container > .navbar-collapse,
-.container-fluid > .navbar-collapse {
+.container-fluid > .navbar-collapse { /*필*/
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -4235,7 +4235,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .container > .navbar-header,
   .container-fluid > .navbar-header,
   .container > .navbar-collapse,
-  .container-fluid > .navbar-collapse {
+  .container-fluid > .navbar-collapse { /*필*/
     margin-right: 0;
     margin-left: 0;
   }
@@ -4287,7 +4287,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand,
-  .navbar > .container-fluid .navbar-brand {
+  .navbar > .container-fluid .navbar-brand {  /*필*/
     margin-left: -15px;
   }
 }
@@ -4975,7 +4975,7 @@ a.badge:focus {
   border-top-color: #d5d5d5;
 }
 .container .jumbotron,
-.container-fluid .jumbotron {
+.container-fluid .jumbotron { /*필*/
   padding-right: 15px;
   padding-left: 15px;
   border-radius: 6px;
@@ -4989,7 +4989,7 @@ a.badge:focus {
     padding-bottom: 48px;
   }
   .container .jumbotron,
-  .container-fluid .jumbotron {
+  .container-fluid .jumbotron { /*필*/
     padding-right: 60px;
     padding-left: 60px;
   }
@@ -5315,7 +5315,7 @@ button.list-group-item {
 .list-group-item.active:focus .list-group-item-heading > small,
 .list-group-item.active .list-group-item-heading > .small,
 .list-group-item.active:hover .list-group-item-heading > .small,
-.list-group-item.active:focus .list-group-item-heading > .small {
+.list-group-item.active:focus .list-group-item-heading > .small {    /*필*/
   color: inherit;
 }
 .list-group-item.active .list-group-item-text,
@@ -5477,7 +5477,7 @@ button.list-group-item-danger.active:focus {
 .panel-title > small,
 .panel-title > .small,
 .panel-title > small > a,
-.panel-title > .small > a {
+.panel-title > .small > a {    /*필*/
   color: inherit;
 }
 .panel-footer {
@@ -6489,7 +6489,7 @@ button.close {
 .modal-header:before,
 .modal-header:after,
 .modal-footer:before,
-.modal-footer:after {
+.modal-footer:after { /*필*/
   display: table;
   content: " ";
 }
@@ -6508,7 +6508,7 @@ button.close {
 .pager:after,
 .panel-body:after,
 .modal-header:after,
-.modal-footer:after {
+.modal-footer:after { /*필*/
   clear: both;
 }
 .center-block {
